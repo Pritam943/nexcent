@@ -1,0 +1,78 @@
+.cardsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 70vh;
+}
+.sec8{
+    color: var(--second-color);
+}
+.sec9{
+    width: 600px;
+    height: 70px;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--second-color);
+
+}
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 85vw;
+}
+
+.card{
+    height: 326px;
+    width: 368px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.subcard{
+    width: 368px;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    
+}
+.cardcontent{
+    width: 305px;
+    height: 150px;
+    background-color: var(--first-color);
+    z-index: 4;
+    position: absolute;
+    margin-top: 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.cardlink{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardh3{
+    color: var(--second-color);
+    height: 80px;
+    width: 265px;
+    text-align: center;
+    opacity: 0.8;
+}
+.cardread{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}

@@ -1,6 +1,6 @@
 import "../../style/navbar.css";
 import icon from "../../assets/Icon.png";
-import Nexcent from"../../assets/Nexcent.png";
+import Nexcent from "../../assets/Nexcent.png";
 
 const Navbar = () => {
   return (
