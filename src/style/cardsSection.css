@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 10px;
-    height: 70vh;
+    height: 40pc;
 }
 .sec8{
     color: var(--second-color);
@@ -22,7 +22,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    width: 85vw;
+    width: 80pc;
 }
 
 .card{
@@ -39,7 +39,7 @@
     height: 250px;
     position: absolute;
     z-index: 1;
-    
+    overflow-y: hidden;
 }
 .cardcontent{
     width: 305px;
@@ -75,4 +75,33 @@
     align-items: center;
     flex-direction: row;
     margin: 10px;
+}
+
+@media only screen and (max-width: 725px){
+
+    .cardsec{
+        height: 90pc;
+    }
+
+    .sec8{
+        width: 420px;
+        text-align: center;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    .sec9{
+        width: 420px;
+        height: 110px;
+    }
+    .cardcontainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 30pc;
+    }
+
+    .card{
+        margin-top: 60px;
+    }
 }

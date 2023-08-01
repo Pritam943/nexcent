@@ -35,7 +35,7 @@
 
 .section1{
     margin-top: 70px;
-    width: 28vw;
+    width: 30pc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
 
 }
 .second{
-    
+    text-align: center;
     color: var(--second-color);
 }
 .client2{
@@ -52,7 +52,7 @@
     align-items: center;
     margin-top: 30px;
     flex-direction: row;
-    width: 70vw;
+    width: 80pc;
   
 }
 .box{
@@ -76,7 +76,82 @@ h6{
     text-align: center;
     color: var(--second-color);
 }
+.client3{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 70pc;
+    margin-top: 40px;
+}
 
+.section2{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    height: 30pc;
+    width: 30pc;
+   
+}
+.fourth{
+    color: var(--second-color);
+}
 
+.fifth{
+    margin-top: 10px;
+    text-align: left;
+    color: var(--second-color);
+    opacity: 0.7;
+}
+
+.learn{
+    margin-top: 30px;
+    background-color: var(--third-color);
+    height: 50px;
+    width: 130px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 725px){
+    .section1{
+        margin-top: 70px;
+        width: 20pc;
+    
+    }
+    .client2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        flex-direction: column;
+        
+      
+    }
+    .box{
+        margin-top: 30px;
+    }
+
+    .client3{
+        display: flex;
+        justify-content:  space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 40pc;
+        margin-top: 40px;
+    }
+    .section2{
+        width: 25pc;
+        height: 20pc;
+    }
+.frame{
+    height: 25pc;
+    width: 25pc;
+}
+    
+
+}
 
 

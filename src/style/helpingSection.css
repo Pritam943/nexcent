@@ -1,7 +1,7 @@
 .section3{
     margin-top: 30px;
-    width: 100vw;
-    height: 35vh;
+    width: 100%;
+    height: 25pc;
     background-color: var(--first-color);
     display: flex;
     justify-content: space-around;
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 20vw;
+    width: 20pc;
     margin-left: 170px;
 }
 
@@ -39,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: 40pc;
 }
 
 .subcounts{
@@ -72,43 +72,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 63vh;
-    padding-bottom: 20px;
+    height: 33pc;
+    padding-bottom: 10px;
+    overflow-y: hidden;
 }
 
-.client3{
-    display: flex;
-    justify-content:  space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 65vw;
-    margin-top: 40px;
-}
 
-.section2{
-    height: 30vh;
-    width: 30vw;
-}
-.fourth{
-    color: var(--second-color);
-}
-
-.fifth{
-    margin-top: 10px;
-    text-align: left;
-    color: var(--second-color);
-    opacity: 0.7;
-}
-
-.learn{
-    margin-top: 30px;
-    background-color: var(--third-color);
-    height: 50px;
-    width: 130px;
-    border: none;
-    color: white;
-    border-radius: 4px;
-}
 
 .rec{
     display: flex;
@@ -123,23 +92,26 @@ margin-top: 10px;
 
 .section5{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    width: 65vw;
+    width: 65pc;
 }
 .hline3{
-    width: 40vw;
-    height: 40vh;
+    width: 30pc;
+    height: 26pc;
+    margin-top: 4pc;
+    margin-right: 30px;
 }
 
 .sec5{
-    height: 23vh;
-    width: 37vw;
+    height: 230px;
+    width: 30pc;
     text-align: left;
     padding-bottom: 0px;
     color: var(--second-color);
     padding-top: 20px;
+    
 }
 
 .sec7{
@@ -155,7 +127,7 @@ margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 45vw;
+    width: 30pc;
 
 }
 
@@ -163,9 +135,76 @@ margin-top: 10px;
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
+    margin-left: 30px;
+    margin-right: 0%;
+    padding-right: 0%;
+    width: 80px;
 }
 
-.right{
-    margin-right: 180px;
-}
 
+@media only screen and (max-width: 725px){
+    .section3{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        height: 30pc;
+    }
+    .hline1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 22pc;
+        margin-left: 10px;
+    }
+    .counts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40pc;
+    }
+    
+    .subcounts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .section4{
+        height: 50pc;
+        
+    }
+
+    .section5{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 30pc;
+        height: 48pc;
+    }
+
+    .timg{
+          height: 20pc;
+          width: 18pc;
+          padding-bottom: 0%;
+          margin-top: 30px;
+    }
+    .hline3{
+        width: 25pc;
+        height: 35pc;
+    }
+    .sec5{
+        height: 310px;
+        width: 25pc;
+        text-align: left;
+        margin-left: 10px;
+        padding-top: 0%;
+    }
+
+    .hline4{
+        width: 25pc;
+    }
+}

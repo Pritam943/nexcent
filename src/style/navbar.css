@@ -5,15 +5,21 @@
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 100vw;
+    width: 100%;
     background-color: var(--first-color);
 }
 
 .navbar .logo{
-    margin-left: 50px;
+    margin-right: 90px;
+    width: 250px;
 }
 .navbar .logo img{
     margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.hamberger{
+    display: none;
 }
 
 .navbar ul{
@@ -52,4 +58,32 @@
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar .logo{
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hamberger{
+        display: inline;
+        height: 50px;
+        width: 25px;
+        margin-top: 15px;
+        font-size: 30px
+    }
+    .navbar .logo img{
+        margin-left: 10px;
+        
+    }
+
+
 }
