@@ -51,7 +51,7 @@ const FooterSection = () => {
             
             <div className="femail">
             <input type="text" placeholder="Your email address"  className="useremail" />
-            <input type="submit" value="Submit" />
+            <input className="usersubmit" type="submit" value="Submit" />
             </div>
             
             </div>
