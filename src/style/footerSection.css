@@ -54,7 +54,7 @@
 
 .footsec2{
     width: 350px;
-    height: 190px;
+    height: 220px;
 }
 
 .scicons{
@@ -92,6 +92,13 @@
     text-align: left;
 }
 
+.footsec5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .useremail{
     border-style: none;
     background:none;
@@ -112,8 +119,44 @@
     border-radius: 8px;
   } */
 
+  .scicons{
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+  }
 
+  .facebook{
+    background-color: rgb(19, 101, 241);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .instagram{
+    background-color: rgb(238, 5, 40);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .youtube{
+           background-color: rgb(244, 6, 6);
+           color: white;
+           border-radius: 5px;
+  }
+
+  .github{
+    background-color: rgb(13, 13, 13);
+           color: white;
+           border-radius: 5px;
+  }
   
+  .line{
+    
+    height: 200px;
+    background-color: white;
+  }
 
 @media only screen and (max-width: 725px){
 
@@ -160,8 +203,12 @@
     }
 
     .scicons{
-        margin-left: 35vw;
+        margin-left: 33vw;
+    
     }
+
+   
+    
     .subfootsec{
         display: flex;
         justify-content: space-around;
@@ -170,5 +217,10 @@
         width: 100vw;
     }
 
+      .line{
     
+    height: 2px;
+    width: 80vw;
+    background-color: white;
+  }
 }

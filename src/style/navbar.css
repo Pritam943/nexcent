@@ -59,6 +59,22 @@
     border-radius: 5px;
     padding: 10px 20px;
 }
+@media only screen and (max-width: 725px){
+
+    .userenter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 20px;
+    }
+
+
+    #sig{
+        width: 90px;
+    }
+   
+}
 
 @media only screen and (max-width: 1024px){
 
